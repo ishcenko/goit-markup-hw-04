@@ -127,13 +127,32 @@ img {
 }
 /* main webstudio */
 .section-title {
-    height: 603px;
-    background-color: var(--dark);
+    max-width: 1440px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 1px solid black;
+    background-image: linear-gradient(to right,
+     rgba(46, 47, 66, 0.7), 
+     rgba(46, 47, 66, 0.7)),
+     url(../images/image-title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: var(--dark); */
 }
 .main-section {
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
+    /* margin-right: auto; */
+        /* margin-left: auto; */
+        /* background-image: url(../images/image-title.jpg); */
+        /* background: rgba(46, 47, 66, 0.7); */
+        /* background-image: url(../images/image-title.jpg); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        /* background-position: center; */
 }
 .title {
     color: var(--white-color);
