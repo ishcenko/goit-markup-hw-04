@@ -169,6 +169,7 @@ img {
     background-color: var(--primary-brand);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 .button:hover {
     background: #404BBF;
@@ -208,6 +209,31 @@ img {
 }
 .heading-item {
     width: 264px;
+}
+.heading-item::before {
+    content: "";
+    display: block;
+    /* outline: 1px solid black; */
+    background: var(--light);
+    /* width: 264px; */
+    height: 112px;
+    /* background-image: url(../images/antenna-1.svg); */
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 8px;
+}
+.icon-antenna::before {
+    background-image: url(../images/antenna-1.svg);
+}
+.icon-clock::before {
+    background-image: url(../images/clock-1.svg);
+}
+.icon-diagram::before {
+    background-image: url(../images/diagram-1.svg);
+}
+.icon-astronaut::before {
+    background-image: url(../images/astronaut-1.svg);
 }
 .heading {
     font-weight: 600;
