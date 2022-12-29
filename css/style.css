@@ -209,20 +209,20 @@ img {
 .heading-item {
     width: 264px;
 }
-.heading-item::before {
+/* .heading-item::before {
     content: "";
     display: block;
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
     background: var(--light);
-    /* width: 264px; */
+    width: 264px;
     height: 112px;
-    /* background-image: url(../images/antenna-1.svg); */
+    background-image: url(../images/antenna-1.svg);
     background-size: 64px 64px;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 8px;
-}
-.icon-antenna::before {
+} */
+/* .icon-antenna::before {
     background-image: url(../images/antenna-1.svg);
 }
 .icon-clock::before {
@@ -233,6 +233,36 @@ img {
 }
 .icon-astronaut::before {
     background-image: url(../images/astronaut-1.svg);
+} */
+.icon-heading::before {
+    content: "";
+    display: flex;
+    /* height: 112px; */
+    /* width: 264px; */
+    /* background-repeat: no-repeat;
+    background-color: var(--light);
+    background-position: center;
+    outline: 1px solid black; */
+    /* margin-bottom: 8px; */
+    /* width: 64px;
+    height: 64px; */
+
+}
+.icon-item-heading::before {
+    display: flex;
+    height: 112px;
+    background-repeat: no-repeat;
+        background-color: var(--light);
+        background-position: center;
+            outline: 1px solid black;
+
+}
+.icon-strategy::before {
+    /* background-repeat: no-repeat;
+    background-color: var(--light);
+    background-position: center;
+    outline: 1px solid black; */
+    
 }
 .heading {
     font-weight: 600;
@@ -241,6 +271,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--dark);
     padding-bottom: 8px;
+    margin-top: 8px;
 }
 .section-subject {
     padding-top: 120px;
@@ -317,6 +348,32 @@ img {
     color: var(--text);
     margin-top: 8px;
 }
+
+/* icon soc */
+.icons-soc {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+.icon-item-soc {
+    width: 40px;
+    height: 40px;
+    /* background-color: var(--primary-brand);
+    border-radius: 50%; */
+}
+.icon-link-soc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-brand);
+        border-radius: 50%;
+    
+    
+}
+/* portfolio */
 .section-portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
