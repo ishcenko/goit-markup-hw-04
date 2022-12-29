@@ -257,13 +257,13 @@ img {
             outline: 1px solid black;
 
 }
-.icon-strategy::before {
-    /* background-repeat: no-repeat;
+/* .icon-strategy::before {
+    background-repeat: no-repeat;
     background-color: var(--light);
     background-position: center;
-    outline: 1px solid black; */
+    outline: 1px solid black;
     
-}
+} */
 .heading {
     font-weight: 600;
     font-size: 20px;
