@@ -208,23 +208,21 @@ img {
 .heading-item {
     width: 264px;
 }    
-.heading-items > .heading-item::before {
-    /* content: ""; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* background-color: var(--light); */
-    /* width: 264px; */
-    /* height: 112px; */
-    /* border-radius: 4px; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-image: url(../images/symbol-defs.svg#icon-antenna); */
-}
-.icon {
+/* .heading-items > .heading-item {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+/* .icon {
     display: flex;
     content: "";
-        /* display: flex; */
         justify-content: center;
         align-items: center;
         background-color: var(--light);
@@ -234,10 +232,10 @@ img {
         border-radius: 4px;
         background-position: center;
         background-repeat: no-repeat;
-}
-.heading-item > .icon-antenna::before {
+} */
+/* .heading-item > .icon-antenna::before {
     background-image: url(../images/symbol-defs.svg#icon-antenna);
-}
+} */
 
 /* .icoms-item {
     margin: 0;
