@@ -371,9 +371,11 @@ img {
 
 }
 .customers-card {
-    padding-top: 72px;
-    padding-bottom: 120px;
+    margin-top: 72px;
+    margin-bottom: 120px;
     display: flex;
+    text-align: center;
+    margin-top: 120px;
     gap: 24px;
 
 }
