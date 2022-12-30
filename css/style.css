@@ -362,9 +362,26 @@ img {
     width: 100%;
     height: 100%;
     background-color: var(--primary-brand);
-        border-radius: 50%;
-    
-    
+        border-radius: 50%;  
+}
+/* width: 104 height: 56 */
+/* section customers */
+.section-customers {
+    padding-top: 130px;
+
+}
+.customers-card {
+    padding-top: 72px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
+
+}
+.customers-item {
+    display: flex;
+    padding: 16px 32px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 /* portfolio */
 .section-portfolio {
