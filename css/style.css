@@ -7,6 +7,7 @@
     --white-color: #FFFFFF;
     --light: #F4F4FD;
     --bgd-color: #E5E5E5;
+    --icon-bg-ftr: background: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -276,10 +277,14 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; */
 }
 .card-our-title {
     padding-top: 32px;
     padding-bottom: 32px;
+    /* background: var(--white-color); */
 }
 .subject-our {
     display: flex;
@@ -292,10 +297,15 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    /* background-color: var(--white-color); */
 }
 .subject-img {
-    /* display: flex; */
-
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
+}
+.subject-img:hover,
+.subject-img:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -318,6 +328,7 @@ img {
 .icon-item-soc {
     width: 40px;
     height: 40px;
+    /* background-color: var(--white-color); */
     /* background-color: var(--primary-brand);
     border-radius: 50%; */
 }
@@ -349,6 +360,15 @@ img {
     padding: 16px 32px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+}
+.customers-items:hover,
+.customers-items:focus {
+    border: 1px solid #404BBF;
+    background: var(--white-color);
+}
+.customers-item:hover,
+.customers-item:focus {
+    background: #404BBF;
 }
 .customers-item {
     display: flex;
@@ -505,6 +525,32 @@ img {
     background-repeat: no-repeat;
 
 }
-.soc-item-ftr {
+.container-footer {
+    display: flex;
+}
+.soc-med-ftr {
+    margin-left: 120px;
+}
+.icons-soc-ftr {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
+.icon-item-soc-ftr {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-link-soc-ftr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.icon-link-soc-ftr:hover {
+    background: #31D0AA;
 }
