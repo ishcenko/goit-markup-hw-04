@@ -356,20 +356,21 @@ img {
     gap: 24px;
 }
 .customers-items {
-    width: 264px;
+   display: flex;
+   fill: currentColor;
+}
+.customers-link {
+     /* width: 264px; */
     padding: 16px 32px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    fill: #8e8f99;
 }
-.link-customtrs:hover,
-.link-customtrs:focus {
-    border-color:#404BBF;
+.customers-link:hover {
+    border-color: #404BBF;
     fill: #404BBF
+
 }
-/* .customers-item:hover,
-.customers-item:focus {
-    background: #404BBF;
-} */
 .customers-item {
     display: flex;
 }
