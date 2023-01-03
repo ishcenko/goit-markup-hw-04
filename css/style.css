@@ -353,7 +353,7 @@ img {
 }
 .customers-link:hover {
     border-color: var(--color-avtive);
-    fill: var(--color-avtive;)
+    fill: var(--color-avtive);
 
 }
 .customers-item {
