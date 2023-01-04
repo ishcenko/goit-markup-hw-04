@@ -211,19 +211,21 @@ img {
     padding-top: 120px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 24px;
 }
-.icon-items {
+.item-picture{
     width: 264px;
+    height: 112px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 8px;
     background-color: #F4F4FD;
     border-radius: 4px;
-    padding: 24px 100px;
-    margin-bottom: 8px;
 }
 .heading {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -325,7 +327,8 @@ img {
     background-color: var(--primary-brand);
     border-radius: 50%;  
 }
-.icon-link-soc:hover {
+.icon-link-soc:hover,
+.icon-link-soc:focus {
     background-color: var(--color-avtive);
 }
 /* section customers */
@@ -351,7 +354,8 @@ img {
     border-radius: 4px;
     fill: #8e8f99;
 }
-.customers-link:hover {
+.customers-link:hover, 
+.customers-link:focus {
     border-color: var(--color-avtive);
     fill: var(--color-avtive);
 
@@ -480,9 +484,8 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--white-color);
-        margin-bottom: 16px;
+        margin: 0 auto;
 }
-
 .soc-link-footer {
     display: flex;
     gap: 24px;
@@ -515,6 +518,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 16px;
 }
 
 .icon-item-soc-ftr {
@@ -531,6 +535,7 @@ img {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-.icon-link-soc-ftr:hover {
+.icon-link-soc-ftr:hover,
+.icon-link-soc-ftr:focus {
     background: #31D0AA;
 }
